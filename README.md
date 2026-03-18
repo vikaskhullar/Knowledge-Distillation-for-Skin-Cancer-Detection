@@ -105,6 +105,12 @@ seaborn
 4. Statistical Metrics: Calculate precision, recall, F1-score for each class
 
 Note: The evaluation method systematically compares multiple CNN architectures using consistent training parameters and assessment metrics.
+ 8.3 Computing Infrastructure
+The specifications of the computing infrastructure used in this study are as follows:
+•	CPU – Intel I7
+•	RAM – 32 GB
+•	Graphics card – NVIDIA 4050 RTX 8GB VRAM
+•	OS – Ubuntu Linux 24.04.4 LTS (Noble Numbat)
 
  9. Assessment Metrics
  Primary Metrics
@@ -127,9 +133,10 @@ Note: The evaluation method systematically compares multiple CNN architectures u
 - System suitable for deployment on mobile devices and edge computing platforms
 
  11. Limitations
-1. Resolution Limitation: 32×32 images may lose subtle dermatological features
-2. Architecture Constraint: Fixed student architecture may not be optimal for all teachers
-3. Dataset Bias: Performance dependent on training data diversity and quality
-4. Hyperparameter Sensitivity: Temperature scaling and loss weights not extensively tuned
-5. Clinical Validation: Not tested on real-world clinical deployment
+     The future research directions of this work are to explore various hybrid KD approaches that can further enhance the performance of student models. The investigation of ensemble teacher models can be done to enhance the robustness and generalization of the student model across various skin lesion datasets. Another future direction may include the development and deployment of computation and memory-efficient architectures for real-time deployment on IoT devices and other resource-constrained clinical devices.
+  a. Resolution Limitation: 32×32 images may lose subtle dermatological features
+  b. Architecture Constraint: Fixed student architecture may not be optimal for all teachers
+  c. Dataset Bias: Performance dependent on training data diversity and quality
+  d. Hyperparameter Sensitivity: Temperature scaling and loss weights not extensively tuned
+  e. Clinical Validation: Not tested on real-world clinical deployment
 
